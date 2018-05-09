@@ -1,0 +1,58 @@
+#ventas .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+
+#ventas article{
+margin: 15px;
+}
+
+#ventas img {
+    width: 360px;
+    height: 200px;
+    max-width: 280px;
+}
+
+#ventas  h4{
+    text-align: left;
+    font-size: 20px;
+}
+
+#ventas a{
+    color: #333;
+    text-decoration: none;
+    padding: 7px;
+    margin-top: -3px;
+    border: 3px solid #333;
+    float:right;
+}
+
+#ventas h2{
+    text-align: center;
+  
+}
+
+.boton{
+    color: white;
+    font-weight: bold;
+    display: block;
+    background-color:  dimgrey;
+    line-height: 70px;
+    padding: 0 1.4em;
+    text-decoration:  none;
+    margin-top: 50px;
+   /* margin-left: 50px;
+    margin-right: 650px;*/
+    border-radius: 20px;
+    width: 300px;
+    height: auto;
+    text-align: center;
+}
+
+.boton:hover {
+    background-color: rgba(21,21,21,0.9);
+}
+
+
